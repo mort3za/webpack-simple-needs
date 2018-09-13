@@ -3,7 +3,6 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const IconFontPlugin = require('icon-font-loader').Plugin;
 
 module.exports = {
   entry: ['./src/js/main.js'],
@@ -48,11 +47,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new IconFontPlugin({
-      output: 'style/fk-font',
-      fontName: 'fkFont',
-      mergeDuplicates: devMode
-    }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
