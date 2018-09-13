@@ -39,7 +39,7 @@ module.exports = {
           {
             loader: 'sass-loader', // compiles Sass to CSS
             options: {
-              includePaths: ['./node_modules/bootstrap-sass/assets/stylesheets']
+              // includePaths: ['./node_modules/bootstrap/...']
             }
           }
         ]
