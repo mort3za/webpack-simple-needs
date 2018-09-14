@@ -7,12 +7,6 @@ body {
   font-size: 1.6rem;
   color: $body-color;
   background-color: $body-bg;
-}
-
-:root {
-  --maxWidth: 50rem;
-}
-body {
-  max-width: var(--maxWidth);
   margin: auto;
+  max-width: 50rem;
 }
