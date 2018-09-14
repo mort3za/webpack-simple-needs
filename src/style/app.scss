@@ -1,0 +1,10 @@
+$body-bg: #444444;
+$body-color: #eeeeee;
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  color: $body-color;
+  background-color: $body-bg;
+}

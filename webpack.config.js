@@ -32,9 +32,6 @@ module.exports = {
           {
             loader: 'css-loader?url=false' // translates CSS into CommonJS modules
           },
-          {
-            loader: 'icon-font-loader'
-          },
           // 'postcss-loader',
           {
             loader: 'sass-loader', // compiles Sass to CSS
