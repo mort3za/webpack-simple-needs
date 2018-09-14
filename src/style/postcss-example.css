@@ -1,0 +1,15 @@
+html {
+  font-size: 62.5%;
+}
+:root {
+  --maxWidth: 50rem;
+  --bodyBg: #3E2723;
+  --bodyColor: #f3f3f3;
+}
+body {
+  max-width: var(--maxWidth);
+  margin: auto;
+  font-size: 1.6rem;
+  color: var(--bodyColor);
+  background-color: var(--bodyBg);
+}
